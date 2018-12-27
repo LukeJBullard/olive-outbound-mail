@@ -87,7 +87,7 @@
                 throw new Exception("Outbound mail config not found!");
             }
 
-            $config = $this->m_configs[$a_config];
+            $config = $this->m_configs[$a_configName];
 
             try {
                 $mail = new PHPMailer(true);
