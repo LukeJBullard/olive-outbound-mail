@@ -1,0 +1,22 @@
+{
+    "name": "lbullard/olive-outbound-mail",
+    "description": "Outbound mail module for OliveWeb Framework",
+    "keywords": ["oliveweb", "mail", "module", "addon", "outbound", "phpmailer", "mailer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Bullard",
+            "email": "luke@lukebullard.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=5.5"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+    "extra": {
+        "installer-name": "outboundmail"
+    }
+}
